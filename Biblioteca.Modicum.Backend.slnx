@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Biblioteca.Modicum.API/Biblioteca.Modicum.API.csproj" Id="ec616672-f456-4c46-a42a-44175970ed84" />
+  <Project Path="Biblioteca.Modicum.Application/Biblioteca.Modicum.Application.csproj" Id="57fd1eff-6cf9-48d5-8e92-43e8164020be" />
+  <Project Path="Biblioteca.Modicum.Domain/Biblioteca.Modicum.Domain.csproj" Id="b2948e88-cf70-4f77-b477-e5b88e9e40cd" />
+  <Project Path="Biblioteca.Modicum.Infrastructure/Biblioteca.Modicum.Infrastructure.csproj" Id="28fe5c9e-2c71-4fd1-8c08-f9ef0cc0a4ba" />
+</Solution>

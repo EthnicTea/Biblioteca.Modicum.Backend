@@ -1,0 +1,53 @@
+## =====================================
+## Build Results & Artifacts
+## =====================================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## =====================================
+## Visual Studio / IDE Caches
+## =====================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## =====================================
+## Entity Framework & Database Local Files
+## =====================================
+*.db
+*.sqlite
+*.sqlite3
+
+## =====================================
+## Configuración y Secretos Locales (.env / appsettings)
+## =====================================
+# Ignora archivos de entorno estilo .env
+.env
+*.env
+.env.*
+
+# Ignora configuraciones de desarrollo local con contraseñas
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Pero NUNCA ignores el appsettings base (sirve de plantilla)
+!**/appsettings.json
+
+## =====================================
+## Sistema Operativo
+## =====================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
