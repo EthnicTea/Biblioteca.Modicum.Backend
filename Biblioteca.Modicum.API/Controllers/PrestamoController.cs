@@ -26,6 +26,12 @@ public class PrestamoController : ControllerBase
         return await _prestamoQueries.GetListaPrestamos(cancellationToken);
     }
 
+    [HttpGet("GetPrestamoById/{idPrestamo}")]
+    public async Task<ResponseData<PrestamoResponse>> GetPrestamoById(int idPrestamo, CancellationToken cancellationToken = default)
+    {
+        return await _prestamoQueries.GetPrestamoById(idPrestamo, cancellationToken);
+    }
+
     [HttpPost("CreatePrestamo")]
     public async Task<ResponseData<bool>> CreatePrestamo([FromBody] CreatePrestamoCommand request)
     {
